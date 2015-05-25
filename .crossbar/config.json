@@ -66,7 +66,7 @@
       "executable": "node",
       "arguments": [
         "authenticator.js",
-        "ws://127.0.0.1/ws",
+        "ws://127.0.0.1:9000/ws",
         "realm1",
         "authenticator1",
         "secret123"
@@ -80,7 +80,7 @@
       "executable": "node",
       "arguments": [
         "hello.js",
-        "ws://127.0.0.1/ws",
+        "ws://127.0.0.1:9000/ws",
         "realm1",
         "backend1",
         "secret123"
