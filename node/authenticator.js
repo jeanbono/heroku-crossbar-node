@@ -4,16 +4,18 @@ var autobahn = require('autobahn');
 // A poor man's user database.
 //
 var USERDB = {
-    // A user with an unsalted password
     'backend1': {
         'secret': 'secret123',
         'role': 'anonymous'
     },
-    // A user with a salted password
     'authenticator1': {
         'secret': 'secret123',
         'role': 'anonymous'
-    }
+    },
+    'frontend1': {
+        'secret': 'secret123',
+        'role': 'anonymous'
+    },
 };
 
 

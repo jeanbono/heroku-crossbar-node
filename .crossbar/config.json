@@ -66,19 +66,13 @@
       "executable": "node",
       "arguments": [
         "authenticator.js",
-        "ws://127.0.0.1:9000/ws",
+        "ws://127.0.0.1/ws",
         "realm1",
         "authenticator1",
         "secret123"
       ],
       "options": {
-        "workdir": "../node",
-        "watch": {
-          "directories": [
-            "../node"
-          ],
-          "action": "restart"
-        }
+        "workdir": "../node"
       }
     },
     {
@@ -86,19 +80,13 @@
       "executable": "node",
       "arguments": [
         "hello.js",
-        "ws://127.0.0.1:9000/ws",
+        "ws://127.0.0.1/ws",
         "realm1",
         "backend1",
         "secret123"
       ],
       "options": {
-        "workdir": "../node",
-        "watch": {
-          "directories": [
-            "../node"
-          ],
-          "action": "restart"
-        }
+        "workdir": "../node"
       }
     }
   ]
