@@ -32,8 +32,17 @@
           },
           "auth": {
             "wampcra": {
-              "type": "dynamic",
-              "authenticator": "com.example.authenticate"
+              "type": "static",
+              "users": {
+                "authenticator1": {
+                  "secret": "secret123",
+                  "role": "anonymous"
+                },
+                "backend1": {
+                  "secret": "secret123",
+                  "role": "anonymous"
+                }
+              }
             }
           }
         },
